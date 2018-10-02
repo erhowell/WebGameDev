@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="startGame()">
+	<h1>Color Guessing Game</h3>
+		<h4 id="score">Score:</h4>
+    <h4 id="hScore">High Score:</h4>
+		<div>
+			<div id="gameOver">
+				<h3 id="goText">Game Over</h3>
+				<button type="button" id="goButton" onclick="reset()">Play Again</button>
+			</div>
+			<div id="game">
+				<h4 id="color"></h4>
+        <h4 id="time">Seconds left:</h4>
+				<button type="button" class="colorButtons" onclick="checkAnswer(this)"></button>
+				<button type="button" class="colorButtons" onclick="checkAnswer(this)"></button>
+				<button type="button" class="colorButtons" onclick="checkAnswer(this)"></button>
+				<button type="button" class="colorButtons" onclick="checkAnswer(this)"></button>
+			<div id="results">
+				<h4 id="message"></h4>
+				<div class="half">
+					<h4 id="aText">Correct answer:</h4>
+					<div id="colorAns"></div>
+				</div>
+				<div class="half">
+					<h4 id="pText">The color you picked </h4>
+					<div id="colorPick"></div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+</body>
+
+</html>

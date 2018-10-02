@@ -1,0 +1,46 @@
+body, html{
+  width: 100%;
+  height: auto;
+  background-color: beige;
+  margin:auto;
+}
+#game{
+  width: 100%;
+  height: 80%;
+}
+h1{
+  text-align: center;
+}
+.colorButtons{
+  width:20%;
+  height:80px;
+}
+#results{
+  width:100%;
+  height: 50%;
+  float:left;
+  text-align: center;
+}
+.half{
+  width: 50%;
+  height: auto;
+  float:left;
+}
+#colorAns{
+  width:60%;
+  height: 50px;
+  margin:auto;
+}
+#colorPick{
+  width:60%;
+  height: 50px;
+  margin:auto;
+}
+#gameOver{
+  display: none;
+}
+#color, #time{
+  float:left;
+  width:48%;
+  margin-left:2px;
+}
